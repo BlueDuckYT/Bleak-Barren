@@ -1,0 +1,59 @@
+{
+	"name": "bleak_and_barren:barren_biomes",
+	"selector": "minecraft:overworld",
+	"provider": {
+		"type": "blueprint:overlay",
+		"overlays": [
+			{
+				"matches_biomes": "#bleak_and_barren:is_plains",
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "bleak_and_barren:barren_drylands"
+				}
+			},
+			{
+				"matches_biomes": "#bleak_and_barren:is_farmland_plains",
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "bleak_and_barren:abandoned_farmland"
+				}
+			},
+			{
+				"matches_biomes": "#bleak_and_barren:is_forest",
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "bleak_and_barren:desolate_forest"
+				}
+			},
+			{
+				"matches_biomes": "#bleak_and_barren:is_birch_forest",
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "bleak_and_barren:desolate_birch_forest"
+				}
+			},
+			{
+				"matches_biomes": "#bleak_and_barren:is_dark_forest",
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "bleak_and_barren:desolate_dark_forest"
+				}
+			},
+			{
+				"matches_biomes": "#bleak_and_barren:is_taiga",
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "bleak_and_barren:spruce_parkland"
+				}
+			},
+			{
+				"matches_biomes": "#bleak_and_barren:is_jungle",
+				"biome_source": {
+					"type": "minecraft:fixed",
+					"biome": "bleak_and_barren:droughted_tropics"
+				}
+			}
+		]
+	},
+	"weight": 15
+}
