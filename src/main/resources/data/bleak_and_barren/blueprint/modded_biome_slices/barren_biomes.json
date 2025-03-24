@@ -52,6 +52,14 @@
 					"scale": 2
 				},
 				"matches_biomes": "#bleak_and_barren:is_taiga"
+			},
+			{
+				"biome_source": {
+					"type": "minecraft:checkerboard",
+					"biomes": "bleak_and_barren:droughted_tropics",
+					"scale": 2
+				},
+				"matches_biomes": "#bleak_and_barren:is_jungle"
 			}
 		]
 	},
